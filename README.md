@@ -46,7 +46,7 @@ from bokeh.models.layouts import TabPanel, Tabs
 ```
 ## Results
 
-[Point_matching.webm](https://github.com/dawn-mathew/Visual-Odometry-KITTI-Sequence/assets/150279674/58cd8bdd-9b88-4fc4-98d6-735af228d50b)
+![Point_matching.webm](https://github.com/dawn-mathew/Visual-Odometry-KITTI-Sequence/assets/150279674/58cd8bdd-9b88-4fc4-98d6-735af228d50b)
 
 ![Dashboard](https://github.com/dawn-mathew/Visual-Odometry-KITTI-Sequence/assets/150279674/fcec0c92-4881-4a97-8566-874e6157d278)
 - The video shows the various points of interest being matched between two consecutive frames from the KITTI_sequence_1 dataset. These matched points are then used to compute the predicted trajectory of the ego vehicle.
