@@ -2,7 +2,7 @@ import os
 import numpy as np
 import cv2
 
-#from lib.visualization import plotting
+from lib.visualization import plotting
 from lib.visualization.video import play_trip
 from tqdm import tqdm
 
@@ -141,4 +141,4 @@ for i, gt_pose in enumerate(tqdm(gt_poses, unit="pose")):
     estimated_path.append((cur_pose[0, 3], cur_pose[2, 3]))
     
 
-#plotting.visualize_paths(gt_path, estimated_path, "Visual Odometry", file_out=os.path.basename(data_dir) + ".html")
+plotting.visualize_paths(gt_path, estimated_path, "Visual Odometry", file_out=os.path.basename(data_dir) + ".html")
