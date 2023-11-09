@@ -4,6 +4,7 @@
 This repository offers a basic implementation of Visual Odometry using the KITTI Sequence dataset. It includes the dataset itself and provides visualization tools for comparing the results between predicted and ground truth trajectories.
 
 ## Repo Structure
+```
 ├── KITTI_sequence_1
 │   ├── calib.txt
 │   ├── image_l
@@ -15,6 +16,7 @@ This repository offers a basic implementation of Visual Odometry using the KITTI
 ├── lib
 │   └── visualization
 └── Visual_Odometery.py
+```
 
 - KITTI_sequence_1 & KITTI_sequence_2 are idependent datasets with their respective calib.txt and poses.txt files
     - Calib.txt contain the caliberation matrix with the intrinsic and extrinsic parameters associated with each KITTI sequence. The calibration matrix generally encompasses parameters, including focal length, principal point coordinates, and lens distortion coefficients. Through the application of these parameters, computer vision algorithms can effectively delineate real-world objects to their respective positions within the 2D image plane, thereby facilitating tasks such as visual odometry.
