@@ -48,6 +48,7 @@ from bokeh.models.layouts import TabPanel, Tabs
 ### Visualizing Interest Point Matching
 [Point_matching.webm](https://github.com/dawn-mathew/Visual-Odometry-KITTI-Sequence/assets/150279674/58cd8bdd-9b88-4fc4-98d6-735af228d50b)
 - The video shows the various points of interest being matched between two consecutive frames from the KITTI_sequence_1 dataset. These matched points are then used to compute the predicted trajectory of the ego vehicle.
+
 ### Trajectory Visualization
 ![Dashboard](https://github.com/dawn-mathew/Visual-Odometry-KITTI-Sequence/assets/150279674/fcec0c92-4881-4a97-8566-874e6157d278)
 - The image depicts the HTML dashboard created using the bokeh library. From the results plotted its understood that the predicted trajectory tends to deviate from the ground truth and result in a shorter/wider predicted vehicle trajectory. The error is also observed to incrases with the number of computed frames. Futher improvements have to be made with more complex approaches such as tracking immobile objects or landmarks such as tress or buildings and usnig its computed motion to correct the predicted trajectory of the ego vehicle.
