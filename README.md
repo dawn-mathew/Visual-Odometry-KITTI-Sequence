@@ -45,34 +45,10 @@ from bokeh.models import Div, WheelZoomTool
 from bokeh.models.layouts import TabPanel, Tabs
 ```
 ## Results
-(https://github.com/dawn-mathew/Visual-Odometry-KITTI-Sequence/assets/150279674/70371fa7-618a-4a0d-b1a7-ba0bacf1f386)
+
 
 ![Dashboard](https://github.com/dawn-mathew/Visual-Odometry-KITTI-Sequence/assets/150279674/fcec0c92-4881-4a97-8566-874e6157d278)
 - The video shows the various points of interest being matched between two consecutive frames from the KITTI_sequence_1 dataset. These matched points are then used to compute the predicted trajectory of the ego vehicle.
 - The image depicts the HTML dashboard created using the bokeh library. From the results plotted its understood that the predicted trajectory tends to deviate from the ground truth and result in a shorter/wider predicted vehicle trajectory. The error is also observed to incrases with the number of computed frames. Futher improvements have to be made with more complex approaches such as tracking immobile objects or landmarks such as tress or buildings and usnig its computed motion to correct the predicted trajectory of the ego vehicle.
 
 
-
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
